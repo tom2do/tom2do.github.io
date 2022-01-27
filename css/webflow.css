@@ -4,6 +4,43 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+/*LOGIN*/
+.login__window {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login__window #loginform {
+	width: 100%;
+	max-width: 600px;
+}
+.login__window #loginform input{
+	width: 100%;
+	max-width: 600px;
+	width: 100%;
+	margin-bottom: 1rem;
+	display: block;
+	padding: 10px;
+}
+.login__window #loginform button{
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.secured__content.hidden {
+	display: none;
+}
+
+
+
+
 [class^="w-icon-"],
 [class*=" w-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -915,7 +952,8 @@ textarea.w-select {
   bottom: -100%;
   top: -100%;
   left: -100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -100;
 }
 .w-background-video > video::-webkit-media-controls-start-playback-button {
@@ -1788,6 +1826,14 @@ textarea.w-select {
 }
 .w-ix-emptyfix:after {
   content: "";
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 @keyframes spin {
   0% {
