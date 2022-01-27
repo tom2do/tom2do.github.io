@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Passwortgeschütztes Verzeichnis"
+AuthUserFile .htpasswd
+Require valid-user
