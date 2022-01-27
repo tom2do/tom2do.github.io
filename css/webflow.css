@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+.skills {
+	padding: 20px;
+	background: #d0e7f7;
+	margin-top: 40px;
+}
+
+.skills ul {
+	margin-bottom: 0;
+}
 
 /*LOGIN*/
 .login__window {
