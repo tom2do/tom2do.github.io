@@ -33,7 +33,7 @@ var login = {
 		})
 	},
 	submitLogin(user, pass) {
-		if (user === 'antje' && pass === "bruendlinger") {
+		if (user === 'thoms' && pass === "}Q@u57;J[0") {
 			return sessionStorage.setItem('ab__login', true)
 		} 
 		return sessionStorage.setItem('ab__login', false)
